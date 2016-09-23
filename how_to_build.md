@@ -29,7 +29,7 @@
 22. Choose Configuration Properties -> Linker -> Input
 23. In field Additional Dependencies remove everything except windows standard libraries and add superlu.lib;matgen.lib; and either :
 	- add to Additional Dependencies: C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\lib\intel64\mkl_intel_lp64_dll.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\compiler\lib\intel64\libiomp5md.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\lib\intel64\mkl_intel_thread_dll.lib;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries\windows\mkl\lib\intel64\mkl_core_dll.lib
-	- open Configuration Properties -> Intel Performace Libraries and set drop down field Use Intel MKL to Parallel
+	- or open Configuration Properties -> Intel Performace Libraries and set drop down field Use Intel MKL to Parallel
 24. Add getopt.c to matgen projects
 25. Build BUILD_ALL project
 26. Build TEST_ALL project  
